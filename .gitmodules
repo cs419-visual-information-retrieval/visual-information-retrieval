@@ -1,0 +1,9 @@
+[submodule "build-visual-information-retrieval-model"]
+	path = build-visual-information-retrieval-model
+	url = https://github.com/cs419-visual-information-retrieval/build-visual-information-retrieval-model
+[submodule "angular-ui"]
+	path = angular-ui
+	url = https://github.com/cs419-visual-information-retrieval/angular-ui
+[submodule "python-server"]
+	path = python-server
+	url = https://github.com/cs419-visual-information-retrieval/python-server
