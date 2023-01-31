@@ -1,5 +1,19 @@
 version: "3.0"
 services:
+  angular-ui:
+    container_name: angular-ui-container
+    image: it4u/visual-information-retrieval:0.0.1
+    networks:
+      - es-net
+    ports:
+      - 8080:80
+  web-server:
+    container_name: web-server-container
+    image: it4u/visual-information-retrieval-server:0.0.1
+    networks:
+      - es-net
+    ports:
+      - 5000:5000
   elasticsearch:
     container_name: es-container
     image: docker.elastic.co/elasticsearch/elasticsearch:8.6.0
